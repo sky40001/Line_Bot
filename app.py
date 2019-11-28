@@ -14,7 +14,7 @@ from linebot.models import (
 app = Flask(__name__)
 
 # 填入你的 message api 資訊
-line_bot_api = LineBotApi('U792ed3f43ef960dd1fe75aacbb4496e0')
+line_bot_api = LineBotApi('eo75reS/9r7FTW7/p/jseQiuUJV27QHoot3BVsnM9Y+l4z8hJtRtYBLYr8yQtI9xVjEnUw/lhnpYUVRU1ivLWQD7a6FEB8hd4x8YGyPclgRp0eStWLwYcQqQg11hZ+oFlqC2o4BtHj+Au/bNpFUtJQdB04t89/1O/w1cDnyilFU=')
 handler = WebhookHandler('21f62ce5b8b8e90cd9c82f6216a68e9a')
 
 # 設定你接收訊息的網址，如 https://YOURAPP.herokuapp.com/callback
